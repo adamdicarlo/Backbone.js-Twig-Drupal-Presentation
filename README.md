@@ -14,6 +14,7 @@ Hekyll should:
 - Allow users to commit and publish their presentations through GitHub using GitHub Pages.
 - Provide a good print stylesheet so that a user can print to PDF when conferences ask for slide decks.
 - Provide a simple slideshow mode for generating quick, regular slide shows (simple cross-fades between slides without the need to individually position each slide "Prezi-style."
+- Provide an easy way of dropping in new presentation themes.
 
 ## How to Use Hekyll
 
@@ -34,3 +35,6 @@ This project stands on the shoulders of giants and would not be possible without
 - [Jekyll](https://github.com/mojombo/jekyll)
 - [GitHub Pages](http://pages.github.com/)
 
+## History of Hekyll
+
+[Read the creation story of Hekyll on my blog.](http://brianmcmurray.com/blog/2012/02/07/hekyll-for-awesome-easy-presentations/)

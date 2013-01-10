@@ -2,13 +2,9 @@
 
 body {
     font-family: $myriad;
-
     min-height: 740px;
-
     background: $bg;
-
     -webkit-font-smoothing: antialiased;
-
     color: $text;
 }
 
@@ -30,11 +26,17 @@ a:hover {
     background: rgba(lighten($bg, 15%),1);
 }
 
+.highlight code,
+.highlight span {
+  font-size: 20px;
+  font-family: monospace;
+}
+
 h1 {
   color: $highlight;
   font: {
     weight: bold;
-    size: 2em;
+    size: 1.75em;
   }
 }
 
@@ -48,7 +50,7 @@ h1 {
 
     font-family: $myriad;
 
-    font-size: 48px;
+    font-size: 44px;
     line-height: 1.5;
 }
 
@@ -142,7 +144,7 @@ h1 {
   }
 
   li {
-    margin: 0 0 0.5em;
+    margin: 0 0 0.4em;
   }
 }
 
