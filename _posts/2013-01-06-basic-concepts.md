@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ""
+title: "Basic Backbone Concepts"
 published: true
 classes:
  - slide
@@ -9,4 +9,7 @@ data:
   y: 0
 
 ---
-
+* Model
+* Collection
+* View
+* Router
