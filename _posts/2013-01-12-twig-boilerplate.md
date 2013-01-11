@@ -11,14 +11,14 @@ data:
 ---
 Twig "filter" syntax examples:
 
-{% highlight javascript %}
+{% highlight javascript %}{% raw %}
 {# General format for using a filter: #}
-{ { value | filter_name }}
+{{ value | filter_name }}
 
 {# Examples: #}
-{ { "Translatable string" | t }}
-{ { safe_html_value | raw }}
-{% endhighlight %}
+{{ "Translatable string" | t }}
+{{ safe_html_value | raw }}
+{% endraw %}{% endhighlight %}
 
 We need to provide the t (translate) and raw filters:
 

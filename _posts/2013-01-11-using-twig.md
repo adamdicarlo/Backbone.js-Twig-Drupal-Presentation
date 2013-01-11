@@ -11,14 +11,14 @@ data:
 ---
 Simplest method: Place templates inside of a script tag in your markup:
 
-{% highlight html %}
+{% highlight html %}{% raw %}
 <script type="text/html" id="template-welcome">
-  <h1 id="{ { html_id }}">{ { 'Welcome' | t }}<h1>
-  { % if error_message %}
-    <p class="error">{ { error_message }}</p>
-  { % endif %}
+  <h1 id="{{ html_id }}">{{ 'Welcome' | t }}<h1>
+  {% if error_message %}
+    <p class="error">{{ error_message }}</p>
+  {% endif %}
 </script>
-{% endhighlight %}
+{% endraw %}{% endhighlight %}
 
 {% highlight javascript %}
 var WelcomeView = Backbone.View.extend({
