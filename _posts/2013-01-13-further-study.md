@@ -9,10 +9,10 @@ data:
   y: 0
 
 ---
-* From jQuery to Backbone: http://git.io/tTwmcA via @alexkroman
-* Require.js
-* Backbone.LayoutManager: Nested views and layouts
-* Backbone Boilerplate: App skeleton with Require.js, LayoutManager
-* Lodash: Faster, leaner version of Underscore.js
+* From jQuery to Backbone: [http://git.io/tTwmcA](http://git.io/tTwmcA) via @alexkroman
+* [Require.js](http://requirejs.org/)
+* [Backbone.LayoutManager](https://github.com/tbranyen/backbone.layoutmanager): Nested views and layouts
+* [Backbone Boilerplate](https://github.com/tbranyen/backbone-boilerplate): App skeleton with Require.js, LayoutManager
+* [Lodash](https://github.com/bestiejs/lodash): Faster, leaner version of Underscore.js
 * [Grunt](http://gruntjs.com/): Build tool
-* Marionette.js: Larger apps, nested views and layouts
+* [Marionette.js](http://marionettejs.com/): Larger apps, nested views and layouts

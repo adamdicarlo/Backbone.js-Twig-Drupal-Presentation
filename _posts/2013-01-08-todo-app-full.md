@@ -9,5 +9,5 @@ data:
   y: 0
 
 ---
-* Todo App in action: http://is.gd/bb_todos
-* Annotated Code: http://is.gd/bb_todos_src
+* Todo App in action: [http://is.gd/bb_todos](http://is.gd/bb_todos)
+* Annotated Code: [http://is.gd/bb_todos_src](http://is.gd/bb_todos_src)

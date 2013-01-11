@@ -40,5 +40,5 @@ var AppView = Backbone.View.extend({
 var App = new AppView();
 {% endhighlight %}
 
-Abbreviated version of http://is.gd/bb_todos_src
+Abbreviated version of [http://is.gd/bb_todos_src](http://is.gd/bb_todos_src).
 
